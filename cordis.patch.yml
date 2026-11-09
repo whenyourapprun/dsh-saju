@@ -1,0 +1,7 @@
+# Loader patch for the SAJU bundle: registers the `saju` expertise skill
+# (assets/saju/SKILL.md). No MCP connection is required — SAJU content is
+# self-contained in the skill.
+- insert:
+    - id: saju
+      name: '@whenyourapprun/dsh-saju'
+      config: {}

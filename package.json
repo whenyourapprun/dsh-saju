@@ -1,0 +1,48 @@
+{
+  "name": "@whenyourapprun/dsh-saju",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "SAJU (사주) expertise skill — 사주팔자, 오늘의 운세, 타로, 궁합 해석과 콘텐츠 작성 가이드 for DeepSeek Harness.",
+  "keywords": [
+    "saju",
+    "사주",
+    "사주팔자",
+    "운세",
+    "타로",
+    "tarot",
+    "fortune",
+    "horoscope",
+    "궁합",
+    "만세력",
+    "오행",
+    "십신",
+    "deepseek-harness",
+    "dsh",
+    "skill"
+  ],
+  "author": "whenyourapprun",
+  "license": "MIT",
+  "homepage": "https://thecast.blacksmithio.com/saju/app.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whenyourapprun/dsh-saju.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
