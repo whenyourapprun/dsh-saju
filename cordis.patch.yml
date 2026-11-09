@@ -1,7 +1,20 @@
-# Loader patch for the SAJU bundle: registers the `saju` expertise skill
-# (assets/saju/SKILL.md). No MCP connection is required — SAJU content is
-# self-contained in the skill.
+# Loader patch for the SAJU bundle.
+#
+# Row 1 (`saju`) is this bundle's own Host plugin: it registers the `saju`
+# expertise skill (assets/saju/SKILL.md).
+#
+# Row 2 (`saju-mcp`) wires the SAJU fortune API through the shipped MCP client,
+# pointed at the /saju/mcp endpoint added to the SAJU Koa server
+# (see saju.git/server/saju_api/mcp.js).
 - insert:
     - id: saju
       name: '@whenyourapprun/dsh-saju'
       config: {}
+    - id: saju-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: saju
+        transport: streamable-http
+        url: 'https://api.blacksmithio.com/saju/mcp'
+        headers: {}
+        failOnStartupError: false
