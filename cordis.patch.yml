@@ -8,7 +8,7 @@
 # (see saju.git/server/saju_api/mcp.js).
 - insert:
     - id: saju
-      name: '@whenyourapprun/dsh-saju'
+      name: '@smith3015/dsh-saju'
       config: {}
     - id: saju-mcp
       name: '@deepseek-ai/dsh-mcp-client'

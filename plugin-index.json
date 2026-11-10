@@ -23,7 +23,7 @@
   },
   "plugins": [
     {
-      "name": "@whenyourapprun/dsh-saju",
+      "name": "@smith3015/dsh-saju",
       "title": {
         "en": "SAJU (four pillars, daily fortune & tarot)",
         "ko": "SAJU 사주·운세·타로 (사주팔자·오늘의 운세·타로)"

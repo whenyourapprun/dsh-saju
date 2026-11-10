@@ -17,7 +17,7 @@
 ## 설치
 
 - 저장소: https://github.com/whenyourapprun/dsh-saju (공개)
-- 패키지명: `@whenyourapprun/dsh-saju`
+- 패키지명: `@smith3015/dsh-saju`
 - 플러그인 마켓 인덱스: `plugin-index.json` (DSH 포맷 1)
   - `https://raw.githubusercontent.com/whenyourapprun/dsh-saju/main/plugin-index.json`
 - 검색 키워드: saju, 사주, 사주팔자, 운세, 타로, tarot, fortune, horoscope, 궁합, 만세력, 오행, 십신
