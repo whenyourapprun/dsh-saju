@@ -11,14 +11,25 @@
   "metadata": {
     "categories": {
       "fortune": {
-        "title": { "en": "Fortune & Divination", "ko": "운세 & 사주" }
+        "title": {
+          "en": "Fortune & Divination",
+          "ko": "운세 & 사주"
+        }
       },
       "lifestyle": {
-        "title": { "en": "Lifestyle", "ko": "라이프스타일" }
+        "title": {
+          "en": "Lifestyle",
+          "ko": "라이프스타일"
+        }
       }
     },
     "labels": {
-      "skill": { "title": { "en": "Skill", "ko": "스킬" } }
+      "skill": {
+        "title": {
+          "en": "Skill",
+          "ko": "스킬"
+        }
+      }
     }
   },
   "plugins": [
@@ -56,7 +67,9 @@
           "zodiac",
           "skill"
         ],
-        "labels": ["skill"]
+        "labels": [
+          "skill"
+        ]
       },
       "versions": [
         {
@@ -65,7 +78,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/whenyourapprun/dsh-saju.git",
-            "commit": "24078c5677c2c6f195ce7670a75d1278649803e9"
+            "commit": "e8b8a4bd3fe32fbb98254900de905f78de8e587a"
           }
         }
       ]
