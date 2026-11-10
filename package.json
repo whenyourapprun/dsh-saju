@@ -26,7 +26,7 @@
   "homepage": "https://thecast.blacksmithio.com/saju/app.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/whenyourapprun/dsh-saju.git"
+    "url": "git+https://github.com/whenyourapprun/dsh-saju.git"
   },
   "exports": {
     ".": "./index.js",
